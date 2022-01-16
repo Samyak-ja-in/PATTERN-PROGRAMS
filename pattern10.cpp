@@ -12,11 +12,11 @@ int main()
         {
             if(i<=c && j<=i)
             {
-                cout<<"* ";
+                cout<<j<<" ";
             }
             if(i>c && j<=2*c-i)
             {
-                cout<<"* ";
+                cout<<j<<" ";
             }
         }
         cout<<"\n";
